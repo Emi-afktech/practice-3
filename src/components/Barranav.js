@@ -10,6 +10,9 @@ function Barranav() {
        </div>
        <div className='Derecha'>
        </div>
+       <Link to="/">Inicio</Link>
+       <Link to="/">Registro</Link>
+       <Link to="/">Hoteles</Link> 
        
     </div>
   )
