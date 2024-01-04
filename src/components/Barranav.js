@@ -1,5 +1,6 @@
 import React from 'react'
 import logo  from '../assets/logoempresa.png'
+import { Link } from "react-router-dom"
 
 function Barranav() {
   return (
