@@ -1,8 +1,14 @@
 import React from 'react'
+import '../styles/Inicio.css'
 
 function Inicio() {
   return (
-    <div>Inicio</div>
+    <div>
+      <body>
+        <div className='banner'>
+        </div>
+      </body>  
+    </div>
   )
 }
 
