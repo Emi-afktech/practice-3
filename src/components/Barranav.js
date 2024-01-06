@@ -1,22 +1,27 @@
-import React from 'react'
-import logo  from '../assets/logoempresa.png'
-import { BrowserRouter as Router, Link } from "react-router-dom"
-import '../styles/Barranav.css'
-
+import React from "react";
+import logo from "../assets/logoempresa.png";
+import { BrowserRouter as Router, Link } from "react-router-dom";
+import "../styles/Barranav.css";
 
 function Barranav() {
   return (
-    <div className='Barranav'>
-        <div className='Izquierda'>
-            <img src={logo} alt='Logo de la empresa'/>
-       </div>
-       <div className='Derecha'>
-       </div>
-       <Link to ="/">Inicio</Link>
-       <Link to ="/">Registro</Link>
-       <Link to ="/">Hoteles</Link>
-    </div>
-  )
+    <header className="Barranav">
+      <img src={logo} className="logo" alt="Logo empresa"></img>
+      <nav>
+        <ul className="menu">
+          <li>
+            <a href="/">Inicio</a>
+          </li>
+          <li>
+            <a href="/">Buscar</a>
+          </li>
+          <li>
+            <a href="/">Sobre nosotros</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+  );
 }
 
-export default Barranav
+export default Barranav;
