@@ -14,7 +14,7 @@ ul {
 }
 
 a{
-    color: #333;
+    color: #FFFFFF;
     text-decoration: none;
 }
 
@@ -31,11 +31,13 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: black;
 }
 .logo
 {   
     float: left;
-    width: 120px;
+    width: 100px;
+    border-radius: 50%;
 }
 
 .menu

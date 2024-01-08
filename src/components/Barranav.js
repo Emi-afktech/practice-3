@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/logoempresa.png";
+import logo from "../assets/logoparanav.png";
 import { BrowserRouter as Router, Link } from "react-router-dom";
 import "../styles/Barranav.css";
 
