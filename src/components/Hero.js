@@ -4,7 +4,10 @@ import "../styles/Hero.css";
 export default function Hero() {
   return (
     <div>
-      <body className="herostyle"></body>
+      <body className="herostyle">
+        <div className="overlay">          
+        </div>
+      </body>
     </div>
   );
 }
