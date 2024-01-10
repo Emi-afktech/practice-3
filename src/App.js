@@ -2,7 +2,6 @@ import Barranav from "./components/Barranav";
 import Inicio from "./pages/Inicio";
 import "./App.css";
 import {BrowserRouter as ruta, Route, Routes, BrowserRouter} from "react-router-dom"
-import Hero from "./components/Hero";
 
 function App() {
   return (
@@ -12,9 +11,8 @@ function App() {
     {/*Al estar Barranav fuera de los Switches, se importa a todas las direcciónes que ingrese.*/}
       <Barranav/>
       {/*Routes es para diferenciar entre página y página*/}
-      <Hero/>
       <Routes>
-        <Route path="/" exact element={Inicio}/>
+        <Route path="/" exact element={<Inicio/>}/>
       </Routes>
     </BrowserRouter>
     </div>

@@ -10,13 +10,13 @@ function Barranav() {
       <nav>
         <ul className="menu">
           <li>
-            <a href="/">Inicio</a>
+            <a href="/login">Iniciar sesion</a>
           </li>
           <li>
-            <a href="/">Buscar</a>
+            <a href="/hoteles">Hoteles</a>
           </li>
           <li>
-            <a href="/">Sobre nosotros</a>
+            <a href="/nosotros">Sobre nosotros</a>
           </li>
         </ul>
       </nav>
