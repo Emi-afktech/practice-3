@@ -7,6 +7,7 @@ import name from "../assets/person.png";
 export default function Insesion() {
   return (
     <div>
+      <div className="background">
       <div className="container">
         <div className="header">
           <div className="texto">Registrarse</div>
@@ -14,22 +15,23 @@ export default function Insesion() {
         <div className="inputs">
           <div className="input">
             <img src={name} />
-            <input type="text" />
+            <input type="text" placeholder="Nombre" />
           </div>
           <div className="input">
             <img src={email} />
-            <input type="email" />
+            <input type="email" placeholder="Email"/>
           </div>
           <div className="input">
             <img src={password} />
-            <input type="password" />
+            <input type="password" placeholder="Contraseña"/>
           </div>
           <div className="submit-container">
-            <button>Registrarse</button>
+            <button>Registro</button>
             <button>Iniciar Sesión</button>
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }
