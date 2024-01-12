@@ -13,10 +13,16 @@ ul {
 
 }
 
-a{
+a.btn{
     color: #FFFFFF;
     text-decoration: none;
 }
+
+a.btn:hover
+{
+    color: #FFD95A;
+}
+
 
 body {
     font-size: 1.2rem;

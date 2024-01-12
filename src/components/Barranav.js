@@ -1,6 +1,5 @@
 import React from "react";
 import logo from "../assets/logoparanav.png";
-import { BrowserRouter as Router, Link } from "react-router-dom";
 import "../styles/Barranav.css";
 
 function Barranav() {
@@ -10,13 +9,13 @@ function Barranav() {
       <nav>
         <ul className="menu">
           <li>
-            <a href="/login">Iniciar sesion</a>
+            <a href="/login" class="btn btn-primary">Iniciar sesion</a>
           </li>
           <li>
-            <a href="/hoteles">Hoteles</a>
+            <a href="/hoteles" class="btn btn-primary">Hoteles</a>
           </li>
           <li>
-            <a href="/nosotros">Sobre nosotros</a>
+            <a href="/nosotros" class="btn btn-primary">Sobre nosotros</a>
           </li>
         </ul>
       </nav>

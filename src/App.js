@@ -1,7 +1,9 @@
 import Barranav from "./components/Barranav";
 import Inicio from "./pages/Inicio";
+import Insesion from "./pages/Insesion";
 import "./App.css";
 import {BrowserRouter as ruta, Route, Routes, BrowserRouter} from "react-router-dom"
+
 
 function App() {
   return (
@@ -13,6 +15,7 @@ function App() {
       {/*Routes es para diferenciar entre página y página*/}
       <Routes>
         <Route path="/" exact element={<Inicio/>}/>
+        <Route path="/login" exact element={<Insesion/>}/>
       </Routes>
     </BrowserRouter>
     </div>
