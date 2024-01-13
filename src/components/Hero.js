@@ -5,8 +5,7 @@ export default function Hero() {
   return (
     <div>
       <body className="herostyle">
-        <div className="overlay">          
-        </div>
+        <div className="overlay"></div>
       </body>
     </div>
   );

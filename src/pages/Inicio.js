@@ -5,7 +5,7 @@ import Hero from "../components/Hero";
 function Inicio() {
   return (
     <div className="estiloini">
-      <Hero/>
+      <Hero />
       <div className="sobreimagen">
         <h1>Bienvenido a Entierrelpre</h1>
         <h2>Siempre buscando los mejores precios para usted.</h2>

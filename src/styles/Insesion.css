@@ -77,3 +77,39 @@
     margin: 60px auto;
 
 }
+
+.boton
+{
+    width: 150px;
+    height: 50px;
+    border: none;
+    color: white;
+    background-color: black;
+    border-radius: 95px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    outline: none;    
+}
+
+.boton-gris
+{
+    background-color: #EAEAEA;
+    color: black;
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 95px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    outline: none;    
+}
+
+.boton:hover
+{
+    color: #FFD95A;
+}
+
+.boton-gris:hover
+{
+    color: red;
+}
